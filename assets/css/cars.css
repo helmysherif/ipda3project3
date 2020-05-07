@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+:root
+{
+    --main-color:#cc485d;
+    --main-color2:#f9895d;
+}
+body
+{
+    font-family: 'Cairo', sans-serif;
+}
+.content1
+{
+    background: url('../imgs/bg.png');
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content1 .images
+{
+    position: relative;
+}
+.content1 .word
+{
+    width:250px;
+    height:150px;
+}
+.content1 .bag
+{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:74%;
+    left:50%;
+}
+.content2
+{
+    position: absolute;
+    top:2%;
+    right:6%;
+}
+.content2 .title span
+{
+    color:#fff;
+    font-size: 25px;
+    display: inline-block;
+    padding-left:15px;
+}
+.content2 .title a
+{
+    text-decoration: none;
+    color:var(--main-color);
+    background: #fff;
+    padding:0 15px;
+    font-size: 13px; 
+    border-radius: 20px;
+}
+.content3
+{
+    margin-bottom:100px;
+}
+.content3 .container .row .search
+{
+    background-image: linear-gradient(to right, var(--main-color) , var(--main-color2));
+    padding:40px 30px;
+    box-shadow: 1px 5px 20px 1px rgba(0,0,0,.4);
+    margin-top:-60px;
+}
+.content3 .container .row .search form .form-group
+{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.content3 .container .row .search form .form-group input
+{
+    width:100%;
+    border-radius: 30px;
+    padding:15px 20px;
+    border:0;
+}
+.content3 .container .row .search form .form-group select
+{
+    width:100%;
+    border-radius: 30px;
+    height: 55px;
+    padding:0 20px;
+}
+.content3 .container .row .search a
+{
+    text-decoration: none;
+    color:var(--main-color);
+    font-size: 15px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 30px;
+    padding:0px 50px;
+    height:55px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:991px)
+{
+    .content3 .container .row .search form .form-group
+    {
+        margin-bottom:30px;
+    }
+}
+.content5
+{
+    padding:0 40px;
+    background: #eee;
+    padding-bottom:50px;
+}
+.content5 h2
+{
+    text-align: right;
+    color:var(--main-color);
+    border-right: 5px solid var(--main-color2);
+    padding-right: 15px;
+    margin:30px 0px 60px 0;
+}
+.content5 .card
+{
+    border:0;
+    background: #FFF;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.1);
+}
+.content5 .card .card-title
+{
+    text-align: center;
+    font-weight: bold;
+}
+.content5 .card .card-body ul
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    width:100%;
+    text-align: right;
+}
+.content5 .card .card-body ul li
+{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.content5 .card .card-body ul li i
+{
+    color:var(--main-color);
+    margin-left: 10px;
+}
+.content5 nav
+{
+    margin-top:40px;
+}
+.content5 nav li a
+{
+    background: var(--main-color);
+    border:0;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content5 nav li a:hover
+{
+    background-color: var(--main-color);
+    color:#fff;
+}
+.content5 .more
+{
+    color:#fff;
+    background-image: linear-gradient(to right, var(--main-color) , var(--main-color2));
+    border-radius: 25px;
+    padding:10px 100px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin:40px 0;
+}
+@media(max-width:991px)
+{
+    .content5
+    {
+        margin-right: 10px;
+    }
+    .content5 .card
+    {
+        margin-bottom:40px;
+    }
+}
+.footer
+{
+    background: url('../imgs/Rectangle 12.png');
+    background-size: cover;
+    padding-bottom:30px;
+}
+.footer .images
+{
+    position: relative;
+    text-align: right;
+}
+.footer .word
+{
+    width:250px;
+}
+.footer .bag
+{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:74%;
+    left:78%;
+}
+.footer .container .row .col-lg-4 p
+{
+    color:#fff;
+    padding:30px 0;
+    font-size: 14px;
+    text-align: right;
+}
+.footer .container .row .col-lg-2 ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-top:50px;
+}
+.footer .container .row .col-lg-2 ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    padding-bottom:10px;
+}
+.footer .container .row .col-lg-3 .icons
+{
+    text-align: center;
+    padding-top:50px;
+}
+.footer .container .row .col-lg-3 .icons a
+{
+    text-decoration: none;
+}
+.footer .container .row .col-lg-3 .icons a i
+{
+    color:#fff;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.footer .container .row .col-lg-3 .app
+{
+    padding-top:50px;
+    text-align: center;
+}
+.footer .container .row .col-lg-3 .app h3
+{
+    color:#fff;
+    font-size: 20px;
+    line-height: 2;
+    padding-bottom:20px;
+}
+.footer .container .row .col-lg-3 .app .android
+{
+    background: #fff;
+    padding:12px;
+    border-radius: 35px;
+    margin-bottom:20px;
+}
+.footer .container .row .col-lg-3 .app .android span
+{
+    color:var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    padding-left: 8px;
+    text-transform: capitalize;
+
+}
+.footer .container .row .col-lg-3 .app .android i
+{
+    color:var(--main-color2);
+    font-size: 40px;
+}
